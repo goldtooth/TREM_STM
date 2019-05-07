@@ -172,7 +172,7 @@
 <wire x1="0" y1="68" x2="0" y2="40" width="0" layer="20"/>
 <wire x1="30" y1="0" x2="30" y2="40" width="0" layer="20"/>
 <wire x1="30" y1="40" x2="0" y2="40" width="0" layer="20"/>
-<text x="31.505975" y="1.0253625" size="1.778" layer="27">LUNA</text>
+<text x="1.63708125" y="64.00165" size="1.778" layer="27">LUNA</text>
 </plain>
 <libraries>
 <library name="GT_Capacitor">
@@ -1574,7 +1574,7 @@ CONN_02
 <class number="0" name="default" width="0" drill="0">
 </class>
 </classes>
-<designrules name="default *">
+<designrules name="default">
 <description language="de">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
 &lt;p&gt;
 Die Standard-Design-Rules sind so gewählt, dass sie für 
@@ -1603,7 +1603,7 @@ design rules under a new name.</description>
 <param name="mdSmdSmd" value="6mil"/>
 <param name="mdViaViaSameLayer" value="6mil"/>
 <param name="mnLayersViaInSmd" value="2"/>
-<param name="mdCopperDimension" value="10mil"/>
+<param name="mdCopperDimension" value="40mil"/>
 <param name="mdDrill" value="6mil"/>
 <param name="mdSmdStop" value="0mil"/>
 <param name="msWidth" value="6mil"/>
@@ -1966,10 +1966,10 @@ design rules under a new name.</description>
 <attribute name="NAME" x="68.73" y="12.032" size="0.6096" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="68.73" y="7.333" size="0.6096" layer="27" font="vector" ratio="20"/>
 </element>
-<element name="C2" library="GT_Capacitor" package="PC-D5.3MM" package3d_urn="urn:adsk.eagle:package:32406/1" value="4.7uf" x="33.981115625" y="22.531334375" smashed="yes" rot="R180">
-<attribute name="NAME" x="35.886115625" y="19.610334375" size="0.889" layer="25" ratio="11" rot="R180"/>
-<attribute name="PACKAGE" value="TH" x="33.981115625" y="22.531334375" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="35.505115625" y="26.722334375" size="0.635" layer="27" ratio="10" rot="R180"/>
+<element name="C2" library="GT_Capacitor" package="PC-D5.3MM" package3d_urn="urn:adsk.eagle:package:32406/1" value="4.7uf" x="33.676809375" y="23.09649375" smashed="yes" rot="R180">
+<attribute name="NAME" x="35.581809375" y="20.17549375" size="0.889" layer="25" ratio="11" rot="R180"/>
+<attribute name="PACKAGE" value="TH" x="33.676809375" y="23.09649375" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="35.200809375" y="27.28749375" size="0.635" layer="27" ratio="10" rot="R180"/>
 </element>
 <element name="C3" library="GT_Capacitor" package="PC-D5.3MM" package3d_urn="urn:adsk.eagle:package:32406/1" value="4.7uf" x="34.005575" y="6.38859375" smashed="yes" rot="R180">
 <attribute name="NAME" x="35.910575" y="3.46759375" size="0.889" layer="25" ratio="11" rot="R180"/>
@@ -2133,7 +2133,6 @@ design rules under a new name.</description>
 <contactref element="R20" pad="2"/>
 <contactref element="R56" pad="2"/>
 <contactref element="J2" pad="4"/>
-<wire x1="28.8036" y1="53.0352" x2="30.0228" y2="53.0352" width="0.1524" layer="1"/>
 <wire x1="30.0228" y1="53.0352" x2="32.004" y2="53.0352" width="0.1524" layer="1"/>
 <wire x1="32.004" y1="53.0352" x2="32.020646875" y2="53.059903125" width="0.1524" layer="1"/>
 <wire x1="38.5572" y1="53.0352" x2="37.6428" y2="53.0352" width="0.1524" layer="1"/>
@@ -2198,7 +2197,6 @@ design rules under a new name.</description>
 <wire x1="42.9768" y1="39.7764" x2="40.0812" y2="36.8808" width="0.1524" layer="1"/>
 <wire x1="42.9768" y1="40.9956" x2="42.9768" y2="39.7764" width="0.1524" layer="1"/>
 <wire x1="26.8224" y1="53.0352" x2="27.432" y2="53.0352" width="0.1524" layer="1"/>
-<wire x1="27.432" y1="53.0352" x2="28.6512" y2="53.0352" width="0.1524" layer="1"/>
 <wire x1="23.3172" y1="56.5404" x2="26.8224" y2="53.0352" width="0.1524" layer="16"/>
 <wire x1="23.1648" y1="56.5404" x2="23.3172" y2="56.5404" width="0.1524" layer="16"/>
 <via x="50.7492" y="9.144" extent="1-16" drill="0.35"/>
@@ -2443,7 +2441,6 @@ design rules under a new name.</description>
 </signal>
 <signal name="N$21">
 <contactref element="R30" pad="2"/>
-<wire x1="11.7348" y1="56.8452" x2="11.596225" y2="56.906134375" width="0.1524" layer="1"/>
 <contactref element="R12" pad="2"/>
 <contactref element="R15" pad="2"/>
 <contactref element="R19" pad="2"/>
@@ -2917,11 +2914,11 @@ design rules under a new name.</description>
 <wire x1="43.7388" y1="15.5448" x2="43.768321875" y2="15.539090625" width="0.1524" layer="1"/>
 <wire x1="40.6908" y1="17.9832" x2="41.136346875" y2="18.3890375" width="0.1524" layer="1"/>
 <contactref element="C2" pad="+"/>
-<wire x1="35.814" y1="22.4028" x2="35.052" y2="22.4028" width="0.1524" layer="16"/>
+<wire x1="35.814" y1="22.4028" x2="35.05936875" y2="22.4028" width="0.1524" layer="16"/>
 <wire x1="36.576" y1="21.6408" x2="35.814" y2="22.4028" width="0.1524" layer="16"/>
 <wire x1="37.7952" y1="21.6408" x2="36.576" y2="21.6408" width="0.1524" layer="1"/>
 <wire x1="40.9956" y1="18.4404" x2="37.7952" y2="21.6408" width="0.1524" layer="1"/>
-<wire x1="35.052" y1="22.4028" x2="34.981115625" y2="22.531334375" width="0.1524" layer="16"/>
+<wire x1="35.05936875" y1="22.4028" x2="34.676809375" y2="23.09649375" width="0.1524" layer="16"/>
 <wire x1="40.9956" y1="18.4404" x2="41.136346875" y2="18.3890375" width="0.1524" layer="1"/>
 <via x="36.576" y="21.6408" extent="1-16" drill="0.35"/>
 </signal>
@@ -3035,6 +3032,12 @@ design rules under a new name.</description>
 <mfgpreviewcolor name="coppercolor" color="0xFFFFBF00"/>
 <mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
 </mfgpreviewcolors>
+<errors>
+<approved hash="7,39,04000016e5e71cce"/>
+<approved hash="7,39,4dd94422c0a9b0c6"/>
+<approved hash="7,39,fe0f37be6c610479"/>
+<approved hash="7,39,a192e7121e41bfe8"/>
+</errors>
 </board>
 </drawing>
 <compatibility>
